@@ -71,7 +71,7 @@ export default function Header() {
         <div className="flex justify-between items-center">
           <div className="flex items-center">
             <LogoWithHearts />
-            <nav className="hidden lg:flex h-16 items-center">
+            <nav className="hidden lg:flex h-16 items-center text-white!">
               <Link href="/" className={linkClass("/")}>
                 <HomeOutlined /> Trang chủ
               </Link>
